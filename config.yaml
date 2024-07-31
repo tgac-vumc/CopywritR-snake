@@ -1,0 +1,13 @@
+path:
+    copywriter: 'copywriter/'
+    bam: 'bam/'
+    log: 'log/'
+    temp: 'temp/'
+    sampleList: 'matching_samples.csv'
+
+platform:
+    SRorPE: 'PE'
+    prefix: ['R1', 'R2']
+
+all:
+     bait_intervals: /net/nfs/PAT/archive/Resource/KAPA_New_Exome/KAPA_New_Exome_capture_targets_prerelease_HG19.bed

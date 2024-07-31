@@ -1,0 +1,10 @@
+channels:
+  - bioconda
+  - r
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - snakemake=4.3.0
+  - bioconductor-qdnaseq
+  - bioconductor-copywriter
